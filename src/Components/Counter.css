@@ -1,0 +1,39 @@
+*{
+box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  margin: 122px auto;
+  flex-direction: column;
+  border: solid red 2px;
+  width: 450px;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+
+
+h1{
+  
+  position: relative;
+  width: 447px;
+  background-color: rgb(222, 151, 20);
+  /* border: solid red 2px; */
+  padding-left: 211px;
+
+  
+}
+.btndiv{
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blueviolet;
+     border: solid red 2px;
+     padding: 7px;
+}
+
+.btn1{
+ margin-right: 18px;
+}
